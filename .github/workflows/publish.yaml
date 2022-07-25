@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       VERSION: ${{github.ref_name}}
-      REGISTRY: quay.io/kubevirt
+      REGISTRY: quay.io/kubermatic
     steps:
       - uses: actions/checkout@v2
       - uses: arnested/go-version-action@v1
